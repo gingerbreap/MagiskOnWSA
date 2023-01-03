@@ -247,7 +247,7 @@ jobs:
           if magisk_apk == "stable" or magisk_apk == "beta" or magisk_apk == "canary" or magisk_apk == "debug":
               magisk_apk = json.loads(requests.get(f"https://github.com/topjohnwu/magisk-files/raw/master/{magisk_apk}.json").content)['magisk']['link']
           if magisk_apk == "alpha":
-              magisk_apk = "http://f0.0sm.com/node0/2023/01/863B3EF391F4A7A5-901dd57bcc68ef10.jpg"
+              magisk_apk = "https://raw.githubusercontent.com/gingerbreap/MagiskOnWSA/main/37b81ad1-alpha_25206.apk"
               
           out_file = "magisk.zip"
 
